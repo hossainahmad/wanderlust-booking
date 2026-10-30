@@ -14,7 +14,7 @@ type BannerProps = {
   image?: string;
 };
 
-export function Banner({ image = "/images/image5.png" }: BannerProps) {
+export function Banner({ image = "/images/Banner.png" }: BannerProps) {
   return (
     <section className="relative flex min-h-[600px] flex-col overflow-hidden">
       <Image src={image} alt="" fill priority className="object-cover" />
